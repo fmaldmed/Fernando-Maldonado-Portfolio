@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(5, 88, 143);
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+.Family {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/Images/277767457_10159794895000813_2190500422587750727_n.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0 .5%;
+    font-size: 200%;
+    color: black;
+    background-color: darkcyan;
+    justify-content: center;
+
+  }
+
+  button:hover {
+    background-color: #27b7db;
+    color: black;
+  }
+
+.About-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(5, 88, 143);
+    color: #ffffff;
+}
+
+.My-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 1250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(5, 88, 143);
+    color: #ffffff;
+}
+
+.Contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(5, 88, 143);
+    color: #ffffff;
+}
+
+.Resume {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(5, 88, 143);
+    color: #ffffff;
+}
+
+
+.About-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.My-work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Resume h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.mainworks{
+    display: block;
+    margin: 300px;
+    background-image: url("../Assets/Images/_C__Users_16197_code_Horiseon_index.html.png");
+    color: black;
+    text-align: center;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    aside {
+      order: 2;
+    }
+  }
